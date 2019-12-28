@@ -14,5 +14,7 @@ before_install:
 - julia --color=yes --project=. -e 'using Pkg; pkg"add https://github.com/wookay/Guo.jl"'
 
 script:
--              julia --project=. -p2 test/runtests.jl
 - JIVE_PROCS=2 julia --project=. -e 'using Pkg; Pkg.test()'
+
+-              julia --project=. -e 'using Pkg; pkg"add Jive"'
+-              julia --project=. -p2 test/runtests.jl
