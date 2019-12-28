@@ -12,7 +12,7 @@ julia:
 
 before_install:
 - julia --color=yes --project=. -e 'using Pkg; pkg"add https://github.com/wookay/Guo.jl"'
-- julia --color=yes --project=. -e 'using Pkg; pkg"dev Jive"'
+- julia --color=yes --project=. -e 'using Pkg; pkg"add Jive"'
 
 script:
 -              julia --project=. -p2 test/runtests.jl
