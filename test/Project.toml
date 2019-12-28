@@ -1,3 +1,4 @@
 [deps]
 Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Guo = "09ad4e76-6632-467b-9cb3-9477a91d042b"
