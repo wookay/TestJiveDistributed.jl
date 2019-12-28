@@ -1,0 +1,7 @@
+name = "TestJiveDistributed"
+uuid = "1e095334-6b0b-4964-abfb-bf02ed8e9570"
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Guo = "09ad4e76-6632-467b-9cb3-9477a91d042b"
